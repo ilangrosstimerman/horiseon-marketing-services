@@ -65,16 +65,10 @@ p {
     margin-left: 20px;
 }
 
-/* The img elements for the divs search-engine-optimization, online-reputation-management, and
-social-media-marketing have been combined into a single selector for all <img> tags under the
-content class */ 
+/* The legacy classes search-engine-optimization, online-reputation-management, and social-media-marketing
+were combined into a single selector for all <div> elements under the content <section>/class 
 
-.content img {
-    max-height: 200px;
-}
-
-/* The classes search-engine-optimization, online-reputation-management, and social-media-marketing
-were removed, selector now references all <div> tags under the content class  */
+To edit an individual div element, create a new id selector for the div*/
 
 .content div {
     margin-bottom: 20px;
@@ -85,13 +79,25 @@ were removed, selector now references all <div> tags under the content class  */
     color: #ffffff;
 }
 
-/* The h2 attributes for each of the classes above (search-engine-optimization, 
-online-reputation-management, and social-media-marketing) were combined into
-a single selector for all content class h2 attributes   */
+/* The h2 selectors for each legacy class (search-engine-optimization, online-reputation-management,
+and social-media-marketing) were combined into a single selector for all h2 elements under the
+content <section>/class
+
+To edit an individual h2 element, create a new id selector for the div followed by "h2"*/
 
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* The img selectors for each legacy class (search-engine-optimization, online-reputation-management, and
+social-media-marketing) were combined into a single selector for all <img> elements under the
+content <section>/class 
+
+To edit an individual img element, create a new id selector for the div followed by "img"*/
+
+.content img {
+    max-height: 200px;
 }
 
 .float-left {
@@ -115,24 +121,31 @@ a single selector for all content class h2 attributes   */
     background-color: #2589bd;
 }
 
-/* The classes .benefit-lead, .benefit-brand, and .benefit-cost were combined into
-benefit styling since they contain the same margin-bottom and color attributes */
+/* The legacy classes benefit-lead, benefit-brand, and benefit-cost were
+ combined into a single selector for all <div> elements under the benefits <section>/class
+ 
+ To edit an individual div element, create a new id selector for the div*/
+
 
 .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* The h3 attributes for each benefit class (lead, brand, and cost) were combined into
-a single selector for all benefit-styling h3 attributes   */
+/* The h3 selectors for each legacy class (benefit-lead, benefit-brand, and benefit-cost) were 
+combined into a single selector for all h3 elements under the benefits <section>/class
+
+To edit an individual h3 element, create a new id selector for the div followed by "h3"*/
 
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* The img attributes for each benefit class (lead, brand, and cost) were combined into
-a single selector for all benefit-styling img attributes   */
+/* The img selectors for each legacy class (benefit-lead, benefit-brand, and benefit-cost) were 
+combined into a single selector for all img elements under the benefits <section>/class
+
+To edit an individual img element, create a new id selector for the div followed by "img"*/
 
 .benefits img {
     display: block;
